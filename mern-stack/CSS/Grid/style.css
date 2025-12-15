@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Schoolbell", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+
+#nav{
+    /* background-color: aqua; */
+    height: 50px;
+    display: grid;
+    grid-template-columns: 50% 13% 13% 13% 13%;
+    justify-items: center;
+    align-items: center;
+
+}
+#nav h1{
+    justify-self: left;
+    padding-left: 30px;
+}
